@@ -186,6 +186,37 @@ nav{
  }
 
 
+ .equipier{
+     width: 200px;
+     height: 200px;
+     float: left;
+     shape-outside: margin-box;
+     margin: 0 20px 5px 0;
+ }
+ .contenue{
+     max-width: 1000px;
+     margin: 0 auto;
+     padding: 30px;
+     border-radius: 10px;
+     box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+
+ }
+
+ .contenue::after{
+     content: "";
+     display: block;
+     clear: both;
+
+ }
+
+ .contenue h2{
+     margin-bottom: 10px;
+
+ }
+
+ .contenue p{
+     line-height: 1.4;
+ }
 
 @media (max-width: 900px) {
     nav {
