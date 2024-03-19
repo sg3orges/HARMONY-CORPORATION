@@ -109,7 +109,7 @@ nav{
  .home {
      width: 100%;
      height: 800px;
-     background-image: url('../image/Gameplay.png');
+     background-image: url('../image/menuGame.png');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -217,6 +217,16 @@ nav{
  .contenue p{
      line-height: 1.4;
  }
+
+
+.Projet {
+    width: 100%;
+    height: 800px;
+    background-image: url('../image/Gameplay.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 @media (max-width: 900px) {
     nav {
