@@ -352,3 +352,19 @@ nav{
 
     
 }
+
+.alternance{
+    display: flex;
+    align-items: center;
+}
+
+.logoG{
+    max-width: 200px;
+    margin-right: 20px;
+
+}
+
+.descriptions{
+    font-size: 16px;
+
+}
